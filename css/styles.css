@@ -438,6 +438,11 @@ button {
 }
 
 /*Clients*/
+ .clients {
+padding-top: 94px;
+  padding-bottom: 94px;
+ }
+
 .clients-list {
   list-style: none;
   text-decoration: none;
@@ -456,9 +461,8 @@ button {
 
 .clients-el {
   display: inline-block;
-  /*margin-top: 50px;*/
   margin-left: 20px;
-  margin-bottom: 95px;
+  /*margin-bottom: 95px;*/
 }
 .clients-link {
   display: flex;
