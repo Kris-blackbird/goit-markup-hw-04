@@ -162,12 +162,14 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: var(--secondary-text-color);
 }
 
 .icon-contacts-tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: var(--secondary-text-color);
 }
 
 .social-link:hover,
@@ -438,10 +440,10 @@ button {
 }
 
 /*Clients*/
- .clients {
-padding-top: 94px;
+.clients {
+  padding-top: 94px;
   padding-bottom: 94px;
- }
+}
 
 .clients-list {
   list-style: none;
@@ -600,6 +602,7 @@ footer {
   height: 20px;
 }
 
+.social-link-footer:focus,
 .team-social-list-el:hover .social-link-footer,
 .team-social-list-el:focus .social-link-footer {
   background-color: var(--accent-color);
@@ -639,6 +642,11 @@ footer {
   font-weight: 500;
   padding: 6px 22px;
   border: 0px;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white-color);
 }
 
 .card-set {
